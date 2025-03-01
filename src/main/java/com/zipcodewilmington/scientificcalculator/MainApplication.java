@@ -16,13 +16,14 @@ public class MainApplication {
             System.out.println("2: Subtraction");
             System.out.println("3: Multiplication");
             System.out.println("4: Division");
-//        System.out.println("");
-//        System.out.println("");
-//        System.out.println("");
-//        System.out.println("");
-//        System.out.println("");
-//        System.out.println("");
-        System.out.println("13");
+            System.out.println("5: Square");
+            System.out.println("6: Square root");
+            System.out.println("7: Sine");
+            System.out.println("8: Cosine");
+            System.out.println("8: Tangent");
+            System.out.println("9: Inverse Sine");
+            System.out.println("10: Inverse Cosine");
+            System.out.println("13");
 
             int choice =scanner.nextInt();
 
@@ -35,7 +36,6 @@ public class MainApplication {
             if(choice >=1 && choice <= 4){
                 num1= Console.getDoubleInput("Enter first number here :");
                 num2= Console.getDoubleInput("Enter second number here :");
-
             }
             Science science = new Science();
             switch(choice){
