@@ -45,6 +45,7 @@ public class Science {
     }
 
 
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Science science = new Science();
