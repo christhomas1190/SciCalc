@@ -43,8 +43,30 @@ public class Science {
             return num * i;
         }
     }
+    
+    //Addition
+    public static double addition(double a, double b) {
+        return a + b;
+    }
+    //Subtract
+    public static double subtraction(double a, double b) {
+        return a - b;
+    }
 
+    //Multiplication
+    public static double multiplication(double a, double b) {
+        return a * b;
+    }
 
+    //Division
+    public static double division(double a, double b) {
+        if (b == 0) {
+            throw new ArithmeticException("Can't divide by 0");
+        } else {
+            return a / b;
+        }
+
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
