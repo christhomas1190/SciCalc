@@ -1,5 +1,4 @@
 package com.zipcodewilmington.scientificcalculator;
-
 import java.util.Scanner;
 
 /**
@@ -25,7 +24,7 @@ public class MainApplication {
             System.out.println("10: Inverse Cosine");
             System.out.println("13: Quit application");
 
-            int choice = scanner.nextInt();
+            int choice = scanner.nextInt(); //Close scanner when all inputs are built
 
             if(choice == 13){
                 break;
