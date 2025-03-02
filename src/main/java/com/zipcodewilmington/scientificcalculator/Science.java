@@ -1,5 +1,5 @@
 package com.zipcodewilmington.scientificcalculator;
-
+import java.lang.Math;
 import java.util.Scanner;
 
 public class Science {
@@ -62,6 +62,29 @@ public class Science {
             return a / b;
         }
     }
+    public static double degrees(double num) {
+        return Math.toDegrees(num);
+    }
+
+    public static double radians(double num) {
+            return Math.toRadians(num);
+    }
+
+    public static double log(double num) {
+        return Math.log(num);
+
+    }
+
+    public static double log10(double num) {
+        return Math.log10(num);
+    }
+
+    //Natural logarithm
+    public static double log1p(double num) {
+        return Math.log1p(num);
+    }
+
+    public static double
 }
 
 
