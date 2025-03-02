@@ -23,9 +23,9 @@ public class MainApplication {
             System.out.println("8: Tangent");
             System.out.println("9: Inverse Sine");
             System.out.println("10: Inverse Cosine");
-            System.out.println("13");
+            System.out.println("13: Quit application");
 
-            int choice =scanner.nextInt();
+            int choice = scanner.nextInt();
 
             if(choice == 13){
                 break;

@@ -11,25 +11,31 @@ public class Science {
         return Math.pow(a, b);
     }
     public static double squareRt(double num) {
-        double squareRt = Math.sqrt(num);
-
-        return squareRt;
+        return Math.sqrt(num);
     }
     public double inverse(double num) {
-        return inverse(num);
+        return 1 / num;
     }
+
+    //If absolute value of number is greater than 1 the result will be NaN
     public double inverseSine(double num) {
-        return inverseSine(num);
+        return Math.asin(num);
     }
-    public double switchSign(double num) {return switchSign(num);}
+    public double switchSign(double num) {
+        return Math.signum(num);
+    }
     public double sin(double num) {
         return Math.sin(num);
     }
     public double cos(double num) {
         return Math.cos(num);
     }
-    public double tan(double num) {return Math.tan(num);}
-    public double inverseCos(double num) {return Math.acos(num);}
+    public double tan(double num) {
+        return Math.tan(num);
+    }
+    public double inverseCos(double num) {
+        return Math.acos(num);
+    }
     public double inverseTan(double num) {
         return Math.atan(num);
     }
@@ -62,19 +68,24 @@ public class Science {
             return a / b;
         }
     }
+
+    //Degrees
     public static double degrees(double num) {
         return Math.toDegrees(num);
     }
 
+    //Radians
     public static double radians(double num) {
             return Math.toRadians(num);
     }
 
+    //Log
     public static double log(double num) {
         return Math.log(num);
 
     }
 
+    //Inverse Log
     public static double log10(double num) {
         return Math.log10(num);
     }
@@ -84,7 +95,6 @@ public class Science {
         return Math.log1p(num);
     }
 
-    public static double
 }
 
 
