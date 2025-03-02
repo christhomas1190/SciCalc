@@ -93,7 +93,7 @@ public class MainApplication {
                     System.out.println("Result:" + science.tan(num1));
                     break;
                 case 11:
-                    System.out.println("Result:" + science.inverseSin(num1));
+                    System.out.println("Result:" + science.inverseSine(num1));
                     break;
 
                 case 12:

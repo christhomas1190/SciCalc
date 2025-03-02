@@ -42,6 +42,7 @@ public class Science {
     public double inverseTan(double num) {
         return Math.atan(num);
     }
+
         //using BigInteger import
     public static BigInteger factorial(int num) {
         BigInteger b = new BigInteger("1");
