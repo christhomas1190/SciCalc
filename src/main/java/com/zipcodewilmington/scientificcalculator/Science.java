@@ -99,6 +99,10 @@ public class Science {
     public static double log1p(double num) {
         return Math.log1p(num);
     }
+    //Inverse Natural Log
+    public static double inverseNL(double num) {
+        return Math.exp(num);
+    }
 
 }
 
