@@ -104,6 +104,19 @@ public class Science {
         return Math.exp(num);
     }
 
+    //Store memory
+    public static double storeMemory(double a, double b){
+        return a = a + b;
+    }
+    //reset memory
+    public static double resetMemory(double a, double b){
+        return a = 0;
+    }
+    //recall memory
+    public static double recallMemory(double a, double b){
+        return a = a + b;
+    }
+
 }
 
 
