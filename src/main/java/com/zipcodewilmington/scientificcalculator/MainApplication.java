@@ -1,6 +1,6 @@
 package com.zipcodewilmington.scientificcalculator;
 import java.util.Scanner;
-
+import java.math.BigInteger;
 /**
  * Created by leon on 2/9/18.
  */
@@ -23,6 +23,7 @@ public class MainApplication {
             System.out.println("9: Inverse Sine");
             System.out.println("10: Inverse Cosine");
             System.out.println("13: Quit application");
+
 
             int choice = scanner.nextInt(); //Close scanner when all inputs are built
 
