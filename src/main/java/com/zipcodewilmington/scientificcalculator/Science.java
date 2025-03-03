@@ -106,16 +106,16 @@ public class Science {
     }
 
     //Store memory
-    public static double storeMemory(double a, double b){
-        return a = b;
+    public static double storeMemory(double a){
+        return a;
     }
     //reset memory
     public static double resetMemory(double a){
         return a = 0;
     }
     //recall memory
-    public static double recallMemory(double a, double b){
-        return a = b;
+    public static double recallMemory(double a){
+        return a;
     }
 
 }
