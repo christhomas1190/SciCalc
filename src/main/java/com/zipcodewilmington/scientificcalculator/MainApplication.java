@@ -49,12 +49,12 @@ public class MainApplication {
             double num1=0;
             double num2=0;
 
-            if(choice >=1 && choice <= 4 || choice ==6 || choice ==25|| choice ==23){
+            if(choice >=1 && choice <= 4 || choice ==6 || choice ==25){
                 System.out.println("Enter first number: ");
                 num1=scanner.nextDouble();
                 System.out.println("Enter second number: ");
                 num2=scanner.nextDouble();
-            }else if ( choice ==5  || choice ==7 || (choice>8 && choice <=25)){
+            }else if (choice == 5 || choice == 7 || (choice >= 8 && choice <= 25)){
                 num1= Console.getDoubleInput("Enter number here :");
             }
 
@@ -108,9 +108,9 @@ public class MainApplication {
                 case 15:
                     System.out.println("Result:" + science.switchSign(num1));
                     break;
-//                case 16:
-//                    System.out.println("Result:" + science.factorial(num1);
-//                    break;
+                case 16:
+                    System.out.println("Result:" + science.factorial((int) num1));
+                    break;
                 case 17:
                     System.out.println("Result:" + science.degrees(num1));
                     break;
@@ -130,13 +130,13 @@ public class MainApplication {
                     System.out.println("Result:" + science.inverseNL(num1));
                     break;
                 case 23:
-                    System.out.println("Result:" + science.storeMemory(num1, num2));
+                    System.out.println("Result:" + science.storeMemory(num1));
                     break;
                 case 24:
                     System.out.println("Result:" + science.resetMemory(num1));
                     break;
                 case 25:
-                    System.out.println("Result:" + science.recallMemory(num1, num2));
+                    System.out.println("Result:" + science.recallMemory(num1));
                     break;
 
             }
