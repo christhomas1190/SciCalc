@@ -44,12 +44,12 @@ public class Science {
     }
 
         //using BigInteger import
-    public static BigInteger factorial(int num) {
-        BigInteger b = new BigInteger("1");
-        for(int i = 2; i <= num; i++){
-            b = b.multiply(BigInteger.valueOf(i));
+    public static int factorial(int num) {
+        int solution = 1;
+        for (int i = 1; i <= num; i++) {
+            solution *= i;
         }
-        return b;
+        return solution;
     }
 
     //Addition

@@ -95,7 +95,6 @@ public class MainApplication {
                 case 11:
                     System.out.println("Result:" + science.inverseSine(num1));
                     break;
-
                 case 12:
                 System.out.println("Result:" + science.inverseCos(num1));
                     break;
@@ -145,17 +144,3 @@ public class MainApplication {
     }
 }
 
-//System.out.print(memory);
-//break
-
-//memory = Science.storeMemory(memory, num1);
-//System.out.println("Current value is " + memory );
-//break;
-
-//memory = Science.resetMemory(memory);
-//System.out.println("Memory has been reset
-//break;
-
-//num1 = Science.recallMemory(num1, memory);
-//System.out.println("Memory is now set to " + num1);
-//break;
