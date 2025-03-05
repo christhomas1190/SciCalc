@@ -12,6 +12,7 @@ public class MainApplication {
 
         while (true) {   //SwitchDisplayMode(String mode) = allow user to type operation/menu options in
             System.out.println(" Choose an operation");
+            //.nextln()??
             System.out.println("1: Addition");
             System.out.println("2: Subtraction");
             System.out.println("3: Multiplication");
@@ -46,8 +47,8 @@ public class MainApplication {
                 break;
             }
 
-            double num1=0;
-            double num2=0;
+            double num1;
+            double num2;
 
             if(choice >=1 && choice <= 4 || choice ==6 || choice ==25){
                 System.out.println("Enter first number: ");
