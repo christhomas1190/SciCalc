@@ -56,6 +56,20 @@ public class ScienceTest {
         double actual = science1.sin(20);
         assertEquals(0.9129452507276277, actual, 0.001);
     }
+
+    @Test
+    public void testpow() {
+        Science science1 = new Science();
+        double actual = science1.pow(5, 4);
+        assertEquals(625, actual, 0.001);
+    }
+
+    @Test
+    public void testadd(){
+        Science science1 = new Science();
+        double actual = science1.addition(10, 2);
+        assertEquals(12, 12, 0.001);
+    }
 }
 
 //test
