@@ -77,12 +77,12 @@ public class Science {
 
     //Degrees
     public static double degrees(double num) {
-        return Math.toDegrees(num);
+        return (num * Math.PI) / 180;
     }
 
     //Radians
     public static double radians(double num) {
-            return Math.toRadians(num);
+            return (num * 180) / (Math.PI);
     }
 
     //Log
@@ -102,7 +102,7 @@ public class Science {
     }
     //Inverse Natural Log
     public static double inverseNL(double num) {
-        return Math.exp(num);
+        return (Math.exp(Math.log(num)));
     }
 
     //Store memory

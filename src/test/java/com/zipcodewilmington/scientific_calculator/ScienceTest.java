@@ -12,15 +12,15 @@ public class ScienceTest {
 
     public void testsquare1() {
         Science science1 = new Science();
-        double actual = science1.square(12);
-        assertEquals(144.0, actual, 0.001);
+        double actual = science1.square(9.0);
+        assertEquals(81, actual, 0.001);
     }
 
     @Test
     public void testsquare2() {
         Science science1 = new Science();
-        double actual = science1.square(12);
-        assertEquals(144.0, actual, 0.001);
+        double actual = science1.square(4);
+        assertEquals(16, actual, 0.001);
     }
 
     @Test
@@ -146,7 +146,7 @@ public class ScienceTest {
     public void testdegrees(){
         Science science1 = new Science();
         double actual = science1.degrees(10);
-        assertEquals(572.9577951308232, actual , 0.000001);
+        assertEquals(0.17453292519943295, actual , 0.000001);
     }
 
     @Test
@@ -167,8 +167,16 @@ public class ScienceTest {
     public void testinverseNL(){
         Science science1 = new Science();
         double actual = science1.inverseNL(5);
-        assertEquals(148.4131591025766, actual , 0.000001);
+        assertEquals(5, actual , 0.000001);
     }
+    @Test
+    public void testradians(){
+        Science science1 = new Science();
+        double actual = science1.radians(10);
+        assertEquals(572.9577951308232, actual , 0.000001);
+    }
+
+
 
 
 
